@@ -28,7 +28,7 @@ $(document).ready(function () {
     speed: 1000,
   })
 })
-date.innerHTML = new Date().getFullYear()
+
 function loader() {
   document.querySelector('.loader-container').classList.add('fade-out')
 }
@@ -38,3 +38,4 @@ function fadeOut() {
 }
 
 window.onload = fadeOut()
+date.innerHTML = new Date().getFullYear()
